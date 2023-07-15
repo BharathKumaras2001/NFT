@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  
+  <style>
+      @media screen and (max-width:1440px){
+        body{
+          margin-bottom: 10px;
+          color: white;
+          font-family: 'Fraunces', serif;
+font-family: 'Outfit', sans-serif;
+        }
+        .main-div{
+          height: 1000px;
+          width: 1000px;
+          background-color: hsl(217,54%,11%);
+          margin-top: 20px;
+          display: flex;
+        }
+        .first-div{
+          height: 580px;
+          width: 349px;
+          background-color: hsl(216, 50%, 16%);
+          margin: 248px;
+          border-radius: 10px
+         
+        }
+        .first-image{
+          height:300px;
+          width: 300px;
+          padding: 23px;
+          border-radius: 32px;
+        }
+        .second-div{
+          height: 327px;
+          width: 348px;
+        }
+       
+        .third-div{
+          margin-top: 0px;
+          height: 314px;
+          width: 290px;
+          
+          padding: 23px;
+          padding-top: 5px;
+        }
+        .last-img{
+          height: 30px;
+          width: 30px;
+          border: 1px solid white;
+          border-radius: 50px;
+          text-align: center;
+        }
+        .first-para{
+          margin-top: 10px;
+          font-size: 25px;
+          font-family: 'Outfit', sans-serif;
+          filter: blur(0.5px);
+        }
+        .second-para{
+          /* color: hsl(178, 100%, 50%); */
+          font-size: 18px;
+         color:hsla(0, 11%, 77%, 0.713);
+         font-family: 'Outfit', sans-serif;
+         filter: blur(0.5px);
+        }
+      .first-span{
+        color:hsl(178, 100%, 50%) ;
+        padding-left: 1px;
+      }
+      .second-span{
+        padding-right: 10px;
+        padding-left: 95px;
+        color:hsla(0, 11%, 77%, 0.713);
+        filter: blur(0.5px);
+      }
+      .last{
+        
+        float: right;
+        text-align: justify;
+        padding-right: 60px;
+        padding-top: 5px;
+        color:  hsla(0, 11%, 77%, 0.713);
+      }
+      .h{
+        color:hsla(0, 11%, 77%, 0.713);;
+      }
+      .last-last{
+       
+        color: white;
+      }
+      }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern -->
+
+  <div class="main-div">
+    <div class="first-div">
+      <div class="second-div">
+        <img src="./images/image-equilibrium.jpg" alt="qube" class="first-image">
+      </div>
+      <div class="third-div">
+        <p class="first-para"> Equilibrium #3429</p>
+        <p class="second-para"> Our Equilibrium collection promotes balance and calm.</p>
+        <p><span class="first-span"><img src="./images/icon-ethereum.svg" alt="etharim"> 0.041 ETH</span><span class="second-span"> <img src="./images/icon-clock.svg" alt="clock">3 days left</span></p>
+        <hr class="h">
+        <p class="last-para"><img src="./images/image-avatar.png" alt="Photo" class="last-img"><span class="last">Creation of <span class="last-last">
+          Jules Wyvern</span></span></p>
+
+      </div>
+    </div>
+
+   
+  </div>
+</body>
+</html>
